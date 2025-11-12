@@ -1,5 +1,5 @@
-import 'package:flutter_genui/flutter_genui.dart';
-import 'package:flutter_genui_firebase_ai/flutter_genui_firebase_ai.dart';
+import 'package:genui/genui.dart';
+import 'package:genui_firebase_ai/genui_firebase_ai.dart';
 
 class GenUiService {
   Catalog createCatalog() => CoreCatalogItems.asCatalog();
@@ -13,7 +13,8 @@ class GenUiService {
   }
 }
 
-const _oceanExplorerPrompt = '''
+const _oceanExplorerPrompt =
+    '''
 # Instructions
 
 You are an intelligent ocean explorer assistant that helps users understand ocean data by creating and updating UI elements that appear in the chat. Your job is to answer questions about ocean conditions, trends, and measurements.

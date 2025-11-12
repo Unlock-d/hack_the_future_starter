@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:flutter_genui/flutter_genui.dart';
+import 'package:genui/genui.dart';
 import 'package:hack_the_future_starter/features/chat/models/chat_message.dart';
 import 'package:hack_the_future_starter/features/chat/services/genui_service.dart';
 

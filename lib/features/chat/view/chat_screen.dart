@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_genui/flutter_genui.dart';
+import 'package:genui/genui.dart';
 import 'package:hack_the_future_starter/l10n/app_localizations.dart';
 
 import '../models/chat_message.dart';
